@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1vh;
+}
+
+@media only screen and (max-width: 600px) {
+    ._navlist {
+        display: none;
+    }
+
+    ._bannerinfo {
+        bottom: 25%;
+        width: 48vh;
+    }
+
+    ._bannerinfo h1 {
+        width: 48vh;
+        margin-bottom: 1.5vh;
+    }
+  }
